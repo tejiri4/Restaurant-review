@@ -32,7 +32,7 @@ export default class RestaurantCard extends Component {
 }
 
 const styles = StyleSheet.create({
-  row: { flexDirection: "row" },
+  row: { flexDirection: "row", height: 40 },
   edges: {
     flex: 1,
     justifyContent: "center",

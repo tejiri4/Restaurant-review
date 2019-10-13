@@ -12,7 +12,6 @@ export default StyleSheet.create({
   input: {
     backgroundColor: "#F5F5F5",
     padding: 10,
-    marginBottom: 30,
     fontSize: 15
   }
 });
