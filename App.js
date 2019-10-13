@@ -36,8 +36,6 @@ export default class App extends Component {
   setClassState = data => this.setState(data);
 
   render() {
-    debugger;
-
     return (
       <View style={commonStyles.flex}>
         <Header />
@@ -46,6 +44,9 @@ export default class App extends Component {
           setClassState={this.setClassState}
         />
         <FlatList
+          contentContainerStyle={{
+            paddingTop: 50
+          }}
           data={restaurants.filter(place => {
             return (
               !this.state.searchKey ||
